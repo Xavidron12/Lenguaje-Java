@@ -1,0 +1,16 @@
+site_name: Lenguaje Java
+theme:
+  name: 'material'
+
+# Personalización del sitio
+site_description: "Documentación sobre Java usando MkDocs"
+site_author: "Javier"
+repo_name: "Mi Repositorio de Java"
+repo_url: "https://github.com/Xavidron12/Lenguaje-Java.git"
+
+nav:
+  - Inicio: index.md
+  - Introducción: introduccion.md
+  - Sintaxis: sintaxis.md
+  - Programación Orientada a Objetos: poo.md
+  - Ejemplos: ejemplos.md
