@@ -65,6 +65,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#programacion-orientada-a-objetos-poo-en-java" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -283,6 +288,20 @@
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
       
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Programación Orientada a Objetos
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
         
@@ -294,6 +313,43 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#conceptos-clave-de-la-poo" class="md-nav__link">
+    <span class="md-ellipsis">
+      🏗️ Conceptos clave de la POO
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ejemplo-de-una-clase-en-java" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ejemplo de una Clase en Java
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -337,6 +393,34 @@
   
   
   
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#conceptos-clave-de-la-poo" class="md-nav__link">
+    <span class="md-ellipsis">
+      🏗️ Conceptos clave de la POO
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ejemplo-de-una-clase-en-java" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ejemplo de una Clase en Java
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -355,9 +439,33 @@
   
 
 
-  <h1>Programación Orientada a Objetos</h1>
+<h1 id="programacion-orientada-a-objetos-poo-en-java">Programación Orientada a Objetos (POO) en Java</h1>
+<p>La <strong>Programación Orientada a Objetos (POO)</strong> es un paradigma de programación basado en el uso de <strong>clases</strong> y <strong>objetos</strong>. Java es un lenguaje diseñado específicamente para este enfoque.</p>
+<h2 id="conceptos-clave-de-la-poo">🏗️ <strong>Conceptos clave de la POO</strong></h2>
+<p>1️⃣ <strong>Clases:</strong> Plantillas para crear objetos.<br />
+2️⃣ <strong>Objetos:</strong> Instancias de una clase.<br />
+3️⃣ <strong>Encapsulación:</strong> Protección de datos mediante modificadores de acceso.<br />
+4️⃣ <strong>Herencia:</strong> Capacidad de una clase de heredar atributos y métodos de otra.<br />
+5️⃣ <strong>Polimorfismo:</strong> Uso de una misma interfaz para distintos tipos de datos.</p>
+<h2 id="ejemplo-de-una-clase-en-java"><strong>Ejemplo de una Clase en Java</strong></h2>
+<p>```java
+class Persona {
+    String nombre;</p>
+<pre><code>Persona(String nombre) {
+    this.nombre = nombre;
+}
 
-
+void mostrarNombre() {
+    System.out.println("Mi nombre es " + nombre);
+}
+</code></pre>
+<p>}</p>
+<p>public class Main {
+    public static void main(String[] args) {
+        Persona p = new Persona("Javier");
+        p.mostrarNombre();
+    }
+}</p>
 
 
 
